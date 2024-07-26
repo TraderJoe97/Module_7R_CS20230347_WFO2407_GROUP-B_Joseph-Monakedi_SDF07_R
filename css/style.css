@@ -38,7 +38,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.container {
+    min-width: 350px;
+}
 body {
     background: var(--clr-primary);
     color: var(--clr-secondary);
@@ -46,6 +48,7 @@ body {
     font-size: var(--fs-body);
     margin: 0;
     line-height: 1.6;
+
 }
 
 section {
@@ -95,6 +98,10 @@ h3 {font-size: var(--fs-h3);}
 
 .section__title {
     margin-bottom: .25rem;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
 }
 
 .section__subtitle--intro {  
